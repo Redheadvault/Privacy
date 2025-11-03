@@ -1,0 +1,30 @@
+QUICK START - Copy/Paste These Commands
+========================================
+
+After downloading this folder to your local machine:
+
+cd 3d-printing-app-privacy
+git init
+git add .
+git commit -m "Add privacy policy"
+
+# Try this first (if redheadvault):
+git remote add origin git@github.com:redheadvault/3d-printing-app-privacy.git
+git branch -M main
+git push -u origin main
+
+# If that fails, try this (if redhead):
+git remote remove origin
+git remote add origin git@github.com:redhead/3d-printing-app-privacy.git
+git branch -M main
+git push -u origin main
+
+Then:
+1. Go to https://github.com/YOUR-USERNAME/3d-printing-app-privacy/settings/pages
+2. Source: "Deploy from a branch"
+3. Branch: "main", folder: "/ (root)"
+4. Click "Save"
+5. Wait 2 minutes
+6. Your URL: https://YOUR-USERNAME.github.io/3d-printing-app-privacy/
+
+Done!
